@@ -5,6 +5,12 @@
 //     Poi, definisci la stessa funzione somma ma come funzione anonima assegnata a una variabile
 //     Quindi, riscrivi la funzione somma con la sintassi delle arrow functions.
 
+
+const somma = (a, b) => a + b;
+
+// console.log(somma(2, 3))
+
+
 // 🏆 Snack 2
 // Crea una arrow function che calcola il quadrato di un numero.
 
