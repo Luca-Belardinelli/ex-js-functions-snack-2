@@ -16,6 +16,10 @@ const somma = (a, b) => a + b;
 
 //     Definisci una funzione chiamata quadrato che accetta un numero e restituisce il suo quadrato in una sola riga.
 
+const quadrato = a => a * a;
+
+// console.log(quadrato(3))
+
 // 🏆 Snack 3
 // Crea una funzione eseguiOperazione
 
