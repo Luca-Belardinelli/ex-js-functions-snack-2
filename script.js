@@ -23,7 +23,23 @@ const quadrato = a => a * a;
 // 🏆 Snack 3
 // Crea una funzione eseguiOperazione
 
-//     Definisci una funzione eseguiOperazione che accetta tre parametri: due numeri e una funzione operatore (callback). La funzione deve eseguire l'operazione fornita sui due numeri.
+//     Definisci una funzione eseguiOperazione che accetta tre parametri: due numeri e una funzione operatore (callback).
+//      La funzione deve eseguire l'operazione fornita sui due numeri.
+
+
+
+const sommaNumeri = (a, b) => a + b;
+
+const sottrazioneNumeri = (a, b) => a - b;
+
+
+function eseguiOperazione(a, b, operatore) {
+    return operatore(a, b)
+}
+
+// console.log(eseguiOperazione(2, 3, sommaNumeri));
+// console.log(eseguiOperazione(2, 3, sottrazioneNumeri));
+
 
 
 // 🏆 Snack 4
